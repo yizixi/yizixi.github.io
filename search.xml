@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[My First Article]]></title>
+      <url>https://yizixi.github.io/2017/03/02/MyFirstArticle/</url>
+      <content type="html"><![CDATA[<p>这是我的第一篇文章，用来测试显示效果<br><a id="more"></a></p>
+<h2 id="This-is-my-first-Article"><a href="#This-is-my-first-Article" class="headerlink" title="This is my first Article"></a>This is my first Article</h2><p><a href="https://www.baidu.com" target="_blank" rel="external">Baidu</a>  链接测试</p>
+<h3 id="JavaScript代码测试："><a href="#JavaScript代码测试：" class="headerlink" title="JavaScript代码测试："></a>JavaScript代码测试：</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//@ 获取今天日期前后N天,N月,N年。</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">initDefaultDate</span>(<span class="params">n,timeUnit</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> curr_date = <span class="keyword">new</span> <span class="built_in">Date</span>();</div><div class="line">    <span class="keyword">if</span> (timeUnit === <span class="string">'day'</span>) &#123;</div><div class="line">        curr_date.setDate(curr_date.getDate() + n);</div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (timeUnit === <span class="string">'month'</span>) &#123;</div><div class="line">        curr_date.setMonth(curr_date.getMonth() + n);</div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (timeUnit === <span class="string">'year'</span>) &#123;</div><div class="line">        curr_date.setFullYear(curr_date.getFullYear() + n);</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">var</span> strYear = curr_date.getFullYear();</div><div class="line">    <span class="keyword">var</span> strMonth = curr_date.getMonth()+<span class="number">1</span>;</div><div class="line">    <span class="keyword">var</span> strDay = curr_date.getDate();</div><div class="line">    <span class="keyword">var</span> strHours = curr_date.getHours();</div><div class="line">    <span class="keyword">var</span> strMinutes = curr_date.getMinutes();</div><div class="line"></div><div class="line">    <span class="keyword">var</span> datastr = strYear + <span class="string">'/'</span> + formatNumber(strMonth) + <span class="string">'/'</span> + formatNumber(strDay);</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">function</span> <span class="title">formatNumber</span>(<span class="params">value</span>)</span>&#123;</div><div class="line">        <span class="keyword">return</span> (value &lt; <span class="number">10</span> ? <span class="string">'0'</span> : <span class="string">''</span>) + value;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> datastr;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="HTML-代码测试："><a href="#HTML-代码测试：" class="headerlink" title="HTML 代码测试："></a>HTML 代码测试：</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">marquee</span> <span class="attr">behavior</span>=<span class="string">"scroll"</span> <span class="attr">direction</span>=<span class="string">"right"</span> <span class="attr">scrollamount</span>=<span class="string">"5"</span> <span class="attr">bgcolor</span>=<span class="string">"pink"</span>&gt;</span>This is HTML<span class="tag">&lt;/<span class="name">marquee</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">marquee</span> <span class="attr">behavior</span>=<span class="string">"slide"</span> <span class="attr">direction</span>=<span class="string">"left"</span> <span class="attr">scrollamount</span>=<span class="string">"7"</span> <span class="attr">bgcolor</span>=<span class="string">"skyblue"</span>&gt;</span>This is HTML<span class="tag">&lt;/<span class="name">marquee</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">marquee</span> <span class="attr">behavior</span>=<span class="string">"alternate"</span> <span class="attr">height</span>=<span class="string">"100px"</span> <span class="attr">direction</span>=<span class="string">"up"</span> <span class="attr">scrollamount</span>=<span class="string">"9"</span> <span class="attr">bgcolor</span>=<span class="string">"#dff666"</span>&gt;</span>This is HTML<span class="tag">&lt;/<span class="name">marquee</span>&gt;</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>HTML演示 - 一言不合就跳舞：</p>
+<marquee behavior="scroll" direction="right" scrollamount="5" bgcolor="pink">This is HTML</marquee><br><marquee behavior="slide" direction="left" scrollamount="7" bgcolor="skyblue">This is HTML</marquee><br><marquee behavior="alternate" height="100px" direction="up" scrollamount="9" bgcolor="#dff666">This is HTML</marquee>
+
+</blockquote>
+<h3 id="CSS-代码测试："><a href="#CSS-代码测试：" class="headerlink" title="CSS 代码测试："></a>CSS 代码测试：</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.style</span>&#123;</div><div class="line"><span class="attribute">font-style</span>:itelic; <span class="comment">/*文字斜体*/</span></div><div class="line"><span class="attribute">font-variant</span>:small-caps; <span class="comment">/*小字体*/</span></div><div class="line"><span class="attribute">letter-spacing </span>: <span class="number">1pt</span>; <span class="comment">/*字间距离*/</span></div><div class="line"><span class="attribute">line-height </span>: <span class="number">200%</span>; <span class="comment">/*设置行高*/</span></div><div class="line"><span class="attribute">font-weight</span>:bold; <span class="comment">/*文字粗体*/</span></div><div class="line"><span class="attribute">vertical-align</span>:sub; <span class="comment">/*下标字*/</span></div><div class="line"><span class="attribute">vertical-align</span>:super; <span class="comment">/*上标字*/</span></div><div class="line"><span class="attribute">text-decoration</span>:line-through; <span class="comment">/*加删除线*/</span></div><div class="line"><span class="attribute">text-decoration</span>: overline; <span class="comment">/*加顶线*/</span></div><div class="line"><span class="attribute">text-decoration</span>:underline; <span class="comment">/*加下划线*/</span></div><div class="line"><span class="attribute">text-decoration</span>:none; <span class="comment">/*删除链接下划线*/</span></div><div class="line"><span class="attribute">text-transform </span>: capitalize; <span class="comment">/*首字大写*/</span></div><div class="line"><span class="attribute">text-transform </span>: uppercase; <span class="comment">/*英文大写*/</span></div><div class="line"><span class="attribute">text-transform </span>: lowercase; <span class="comment">/*英文小写*/</span></div><div class="line"><span class="attribute">text-align</span>:right; <span class="comment">/*文字右对齐*/</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="Git常用命令速查表"><a href="#Git常用命令速查表" class="headerlink" title="Git常用命令速查表"></a>Git常用命令速查表</h3><p><img src="http://p1.bqimg.com/4851/5c67c8b12a0d0c8a.png" alt="Image1"></p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>https://yizixi.github.io/2017/03/02/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Study </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+</search>
