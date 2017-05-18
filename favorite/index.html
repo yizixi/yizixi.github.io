@@ -35,7 +35,7 @@
         p {
             font-family: &apos;Open Sans&apos;, sans-serif;
             text-align: center;">
-<meta property="og:updated_time" content="2017-04-18T09:24:08.645Z">
+<meta property="og:updated_time" content="2017-05-18T10:31:40.823Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="轶子西的博客">
 <meta name="twitter:description" content="What will U meet
@@ -312,7 +312,7 @@
   
     <div class="article-meta">
       <a href="/favorite/index.html" class="article-date">
-      <time datetime="2017-04-18T09:46:55.184Z" itemprop="datePublished">2017-04-18</time>
+      <time datetime="2017-05-18T10:31:40.902Z" itemprop="datePublished">2017-05-18</time>
 </a>
 
 
@@ -373,9 +373,9 @@
             border-radius: 15px;
         }
         .box >p {
-            line-height: 40px;
-            font-size: 2em;
-            color: white;
+            line-height: 38px;
+            font-size: 1.8em;
+            color: #ffffff;
             padding-top: 1em;
         }
         .box ul{
@@ -383,7 +383,7 @@
         }
         .box ul li{
             float: left;
-            width: 23%;
+            width: 21%;
             height:2em;
             margin-left: 2em;
             margin-bottom:2em;
@@ -392,6 +392,7 @@
         }
         .box ul li::before{display: none;}
         .box ul li:hover{background: none;}
+
         .box ul li a{
             font-family: 'Open Sans', sans-serif;
             letter-spacing: 0.10em;
@@ -404,40 +405,54 @@
             text-decoration: none !important;
         }
 
-        /* Gradient 1 */
-        #g1 {
-            background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+        /* Gradient 1 - 8 */
+        #g1 {  background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);  }
+        #g2 {  background: linear-gradient(90deg, #cfecd0, #ffc5ca);  }
+        #g3 {  background: linear-gradient(90deg, #f598a8, #f6edb2);  }
+        #g4 {  background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);  }
+        #g5 {  background: linear-gradient(90deg, #b9deed, #efefef);  }
+        #g6 {  background: linear-gradient(90deg, #aea4e3, #d3ffe8);  }
+        #g7 {  background: linear-gradient(90deg, #faf0cd, #fab397);  }
+        #g8 {  background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);  }
+        
+        /*响应式布局*/
+        @media screen and (min-width: 1600px){
+            .box ul li{width:19%; margin-left: 0.7%;}
         }
-        /* Gradient 2 */
-        #g2 {
-            background: linear-gradient(90deg, #cfecd0, #ffc5ca);
+        @media screen and (max-width: 1599px) and (min-width: 1360px){
+            .box ul li{width:23%; margin-left: 1.4%;}
         }
-        /* Gradient 3 */
-        #g3 {
-            background: linear-gradient(90deg, #f598a8, #f6edb2);
+        @media screen and (max-width: 1359px) and (min-width: 1000px){
+            .box ul li{width:29%; margin-left: 1%;}
         }
-        /* Gradient 4 */
-        #g4 {
-            background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+        /* PC > 800px > Mobile ; iPhone6:375px * 667px.  iPad:768px * 1024px.  */
+        @media screen and (max-width: 999px) and (min-width: 801px){
+            .box ul li{width:48%; margin-left:1.5%; height:1.4em; font-size: 15px;}
+            .box >p{line-height: 38px; font-size: 1.6em;}
         }
-        /* Gradient 5 */
-        #g5 {
-            background: linear-gradient(90deg, #b9deed, #efefef);
+        @media screen and (max-width: 799px) and (min-width:500px){
+            .box ul li{width:43%;margin-top:1.5%; height: 1.4em; font-size: 14px;margin-left: 1.8em;}
+            .box >p{line-height: 38px; font-size: 1.6em;}
         }
-        /* Gradient 6 */
-        #g6 {
-            background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+        @media screen and (max-width: 499px){
+            .box ul li{width: 96%;margin:1em 0.5em; font-size: 14px;height: 1em;}
+            .box >p{line-height: 28px;font-size: 1.4em;} 
+            .box{height: 450px;}
+            
+            /* Gradient 1 - 8 */
+            #g1 {  background: linear-gradient(135deg, #69b7eb, #b3dbd3, #f4d6db);  }
+            #g2 {  background: linear-gradient(135deg, #cfecd0, #ffc5ca);  }
+            #g3 {  background: linear-gradient(135deg, #f598a8, #f6edb2);  }
+            #g4 {  background: linear-gradient(135deg, #ee5c87, #f1a4b5, #d587b3);  }
+            #g5 {  background: linear-gradient(135deg, #b9deed, #efefef);  }
+            #g6 {  background: linear-gradient(135deg, #aea4e3, #d3ffe8);  }
+            #g7 {  background: linear-gradient(135deg, #faf0cd, #fab397);  }
+            #g8 {  background: linear-gradient(135deg, #cfecd0, #a0cea7, #9ec0db);  }
         }
-        /* Gradient 7 */
-        #g7 {
-            background: linear-gradient(90deg, #faf0cd, #fab397);
-        }
-        /* Gradient 8 */
-        #g8 {
-            background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
-        }
+             
     </style>
 </head>
+
 <body>
 <div class="container">
     <header>
@@ -447,32 +462,33 @@
         <p>For Front-end Developers</p>
         <ul>
             <li><a class="element both-opening-horizontal" href="fe/html.html">HTML [5]基础</a></li>
-            <li><a class="element both-opening-horizontal" href="#">CSS [3]基础</a></li>
-            <li><a class="element both-opening-horizontal" href="#">ECMA Script [6]基础</a></li>
-            <li><a class="element both-opening-horizontal" href="#">前端资讯</a></li>
-            <li><a class="element both-opening-horizontal" href="#">值得看的前端博客</a></li>
-            <li><a class="element both-opening-horizontal" href="#">框架收藏</a></li>
+            <li><a class="element both-opening-horizontal" href="fe/css.html">CSS [3]基础</a></li>
+            <li><a class="element both-opening-horizontal" href="fe/script.html">JavaScript | Node.js</a></li>
+            <li><a class="element both-opening-horizontal" href="fe/tools.html">开发工具</a></li>
+            <li><a class="element both-opening-horizontal" href="fe/plugins.html">主流框架整合</a></li>
+            <li><a class="element both-opening-horizontal" href="fe/fe-news.html">前端资讯</a></li>
+            <li><a class="element both-opening-horizontal" href="fe/fe-blog.html">值得看的前端博客</a></li>
         </ul>
     </div>
 
     <div class="box" id="g2">
-        <p>For programmers </p>
+        <p>For Programmers </p>
         <ul>
-            <li><a class="element both-opening-horizontal" href="#">Git & Github</a></li>
-            <li><a class="element both-opening-horizontal" href="#">UI设计</a></li>
-            <li><a class="element both-opening-horizontal" href="#">值得关注的社区</a></li>
-            <li><a class="element both-opening-horizontal" href="#">操作系统（OS）</a></li>
-            <li><a class="element both-opening-horizontal" href="#">值得看的IT博客</a></li>
-            <li><a class="element both-opening-horizontal" href="#">互联网资讯</a></li>
+            <li><a class="element both-opening-horizontal" href="developer/github.html">Git & Github</a></li>
+            <li><a class="element both-opening-horizontal" href="developer/ui.html">UI 设计</a></li>
+            <li><a class="element both-opening-horizontal" href="developer/tools.html">好用的工具</a></li>
+            <li><a class="element both-opening-horizontal" href="developer/it-news.html">互联网资讯</a></li>
+            <li><a class="element both-opening-horizontal" href="developer/group.html">值得关注的社区</a></li>
+            <li><a class="element both-opening-horizontal" href="developer/it-blog.html">值得看的IT博客</a></li>
         </ul>
     </div>
 
     <div class="box" id="g3">
-        <p>有哪些好玩的网站</p>
+        <p>技能升级</p>
         <ul>
-            <li><a class="element both-opening-horizontal" href="#"></a></li>
-            <li><a class="element both-opening-horizontal" href="#"></a></li>
-            <li><a class="element both-opening-horizontal" href="#"></a></li>
+            <li><a class="element both-opening-horizontal" href="skills/en.html">英语（English）</a></li>
+            <li><a class="element both-opening-horizontal" href="skills/de.html">德语（Deutsch）</a></li>
+            <li><a class="element both-opening-horizontal" href="skills/shoot.html">摄影（Photography）</a></li>
             <li><a class="element both-opening-horizontal" href="#"></a></li>
             <li><a class="element both-opening-horizontal" href="#"></a></li>
         </ul>
@@ -481,7 +497,7 @@
     <div class="box" id="g4">
         <p>在生活中探索生活</p>
         <ul>
-            <li><a class="element both-opening-horizontal" href="#">旅行·发现更多可能</a></li>
+            <li><a class="element both-opening-horizontal" href="lifeExplorer/travel.html">旅行·发现更多可能</a></li>
             <li><a class="element both-opening-horizontal" href="#"></a></li>
             <li><a class="element both-opening-horizontal" href="#"></a></li>
             <li><a class="element both-opening-horizontal" href="#"></a></li>
@@ -492,10 +508,10 @@
     <div class="box" id="g5">
         <p>自然科学</p>
         <ul>
-            <li><a class="element both-opening-horizontal" href="#">物理学</a></li>
-            <li><a class="element both-opening-horizontal" href="#">数学</a></li>
-            <li><a class="element both-opening-horizontal" href="#">天文学</a></li>
-            <li><a class="element both-opening-horizontal" href="#">生物科学</a></li>
+            <li><a class="element both-opening-horizontal" href="science/physics.html">物理学</a></li>
+            <li><a class="element both-opening-horizontal" href="science/math.html">数学</a></li>
+            <li><a class="element both-opening-horizontal" href="science/astronomy.html">天文学</a></li>
+            <li><a class="element both-opening-horizontal" href="science/biology.html">生物科学</a></li>
             <li><a class="element both-opening-horizontal" href="#"></a></li>
         </ul>
     </div>
@@ -512,11 +528,11 @@
     </div>
 
     <div class="box" id="g7">
-        <p>技能升级</p>
+        <p>有哪些好玩的网站</p>
         <ul>
-            <li><a class="element both-opening-horizontal" href="#">英语（English）</a></li>
-            <li><a class="element both-opening-horizontal" href="#">德语（Deutsch）</a></li>
-            <li><a class="element both-opening-horizontal" href="#">摄影（Photography）</a></li>
+            <li><a class="element both-opening-horizontal" href="#"></a></li>
+            <li><a class="element both-opening-horizontal" href="#"></a></li>
+            <li><a class="element both-opening-horizontal" href="#"></a></li>
             <li><a class="element both-opening-horizontal" href="#"></a></li>
             <li><a class="element both-opening-horizontal" href="#"></a></li>
         </ul>

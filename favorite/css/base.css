@@ -1,3 +1,19 @@
+
+/*****************************************************************************************\
+  Info:
+
+   1. (base.css) and (css-classes.min.css) used to show Text Hover Effects.
+      Yeah,you will see some Amazing and interesting Effects when hover or click Text in this website.
+
+   2. If you wanna more,go to --- https://antonijasimic.bitbucket.io/text_hover_effects/index.html
+      You will find more Introduction and DEMO at this website.
+
+   3. Github: https://github.com/tonkec/text_hover_effects
+
+   [ 2017/05/18 (Thursday) By Yizixi ]
+
+\*****************************************************************************************/
+
 .element {
 	display: inline;
 	position: relative;
