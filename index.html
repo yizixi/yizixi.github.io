@@ -293,6 +293,51 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-jQuery 操作 select_option 总结" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/05/25/jQuery 操作 select_option 总结/" class="article-date">
+      <time datetime="2017-05-25T02:29:49.002Z" itemprop="datePublished">2017-05-25</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="jQuery-对Select-Option的操作集合大全"><a href="#jQuery-对Select-Option的操作集合大全" class="headerlink" title="jQuery- 对Select Option的操作集合大全"></a>jQuery- 对Select Option的操作集合大全</h2><p>直接上代码和注释，需要什么一看就明了。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//jQuery获取Select选择的Text和Value:</span></div><div class="line"></div><div class="line">$(<span class="string">"#select_id"</span>).change(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="comment">//code...&#125;);   //为Select添加事件，当选择其中一项时触发</span></div><div class="line"><span class="keyword">var</span> checkText=$(<span class="string">"#select_id"</span>).find(<span class="string">"option:selected"</span>).text();  <span class="comment">//获取Select选择的Text</span></div><div class="line"><span class="keyword">var</span> checkValue=$(<span class="string">"#select_id"</span>).val();  <span class="comment">//获取Select选择的Value</span></div><div class="line"><span class="keyword">var</span> checkIndex=$(<span class="string">"#select_id "</span>).get(<span class="number">0</span>).selectedIndex;  <span class="comment">//获取Select选择的索引值</span></div><div class="line"><span class="keyword">var</span> maxIndex=$(<span class="string">"#select_id option:last"</span>).attr(<span class="string">"index"</span>);  <span class="comment">//获取Select最大的索引值 </span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">//jQuery设置Select选择的Text和Value:</span></div><div class="line"></div><div class="line">$(<span class="string">"#select_id "</span>).get(<span class="number">0</span>).selectedIndex=<span class="number">1</span>;  <span class="comment">//设置Select索引值为1的项选中</span></div><div class="line">$(<span class="string">"#select_id "</span>).val(<span class="number">4</span>);   <span class="comment">//设置Select的Value值为4的项选中</span></div><div class="line">$(<span class="string">"#select_id option"</span>).attr(<span class="string">"selected"</span>, <span class="literal">true</span>);   <span class="comment">//设置Select的Text值为jQuery的项选中</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">//jQuery添加/删除Select的Option项：</span></div><div class="line"></div><div class="line">$(<span class="string">"#select_id"</span>).append(<span class="string">"&lt;option value='Value'&gt;Text&lt;/option&gt;"</span>);  <span class="comment">//为Select追加一个Option(下拉项)</span></div><div class="line">$(<span class="string">"#select_id"</span>).prepend(<span class="string">"&lt;option value='0'&gt;请选择&lt;/option&gt;"</span>);  <span class="comment">//为Select插入一个Option(第一个位置)</span></div><div class="line">$(<span class="string">"#select_id option:last"</span>).remove();  <span class="comment">//删除Select中索引值最大Option(最后一个)</span></div><div class="line">$(<span class="string">"#select_id option[index='0']"</span>).remove();  <span class="comment">//删除Select中索引值为0的Option(第一个)</span></div><div class="line">$(<span class="string">"#select_id option[value='3']"</span>).remove();  <span class="comment">//删除Select中Value='3'的Option</span></div><div class="line">$(<span class="string">"#select_id option"</span>).remove();  <span class="comment">//删除Select中Text='4'的Option</span></div></pre></td></tr></table></figure>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-MyFirstArticle" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
