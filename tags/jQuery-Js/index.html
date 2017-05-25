@@ -15,19 +15,15 @@
 
 
 
-<meta name="description" content="jQuery- 对Select Option的操作集合大全直接上代码和注释，需要什么一看就明了。
-123456789101112131415161718192021222324//jQuery获取Select选择的Text和Value:$(&quot;#select_id&quot;).change(function()&amp;#123;//code...&amp;#125;);   //为Select添加事件，当选择其中一项时触">
-<meta property="og:type" content="article">
+<meta name="description" content="Hexo Blog for yizixi">
+<meta property="og:type" content="website">
 <meta property="og:title" content="轶子西的博客">
-<meta property="og:url" content="https://yizixi.github.io/2017/05/25/jQuery 操作 select_option 总结/index.html">
+<meta property="og:url" content="https://yizixi.github.io/tags/jQuery-Js/index.html">
 <meta property="og:site_name" content="轶子西的博客">
-<meta property="og:description" content="jQuery- 对Select Option的操作集合大全直接上代码和注释，需要什么一看就明了。
-123456789101112131415161718192021222324//jQuery获取Select选择的Text和Value:$(&quot;#select_id&quot;).change(function()&amp;#123;//code...&amp;#125;);   //为Select添加事件，当选择其中一项时触">
-<meta property="og:updated_time" content="2017-05-25T02:31:46.836Z">
+<meta property="og:description" content="Hexo Blog for yizixi">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="轶子西的博客">
-<meta name="twitter:description" content="jQuery- 对Select Option的操作集合大全直接上代码和注释，需要什么一看就明了。
-123456789101112131415161718192021222324//jQuery获取Select选择的Text和Value:$(&quot;#select_id&quot;).change(function()&amp;#123;//code...&amp;#125;);   //为Select添加事件，当选择其中一项时触">
+<meta name="twitter:description" content="Hexo Blog for yizixi">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -59,7 +55,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>轶子西的博客</title>
+<title>Tag: jQuery / Js | 轶子西的博客</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -69,9 +65,9 @@
         fancybox: true,
         animate: true,
         isHome: false,
-        isPost: true,
+        isPost: false,
         isArchive: false,
-        isTag: false,
+        isTag: true,
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
@@ -203,7 +199,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/test/">test</a></li></ul>
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jQuery-Js/">jQuery / Js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/test/">test</a></li></ul>
                     </div>
                 </section>
                 
@@ -290,142 +286,56 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-jQuery 操作 select_option 总结" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap">
   
-    <div class="article-meta">
-      <a href="/2017/05/25/jQuery 操作 select_option 总结/" class="article-date">
-      <time datetime="2017-05-25T02:29:49.002Z" itemprop="datePublished">2017-05-25</time>
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2017" class="archive-year">2017</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+          <div class="article-meta">
+              <a href="/2017/05/25/jQuery_Use_select_option_Summary/" class="archive-article-date">
+      <time datetime="2017-05-25T02:19:25.000Z" itemprop="datePublished">05-25</time>
 </a>
 
 
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h2 id="jQuery-对Select-Option的操作集合大全"><a href="#jQuery-对Select-Option的操作集合大全" class="headerlink" title="jQuery- 对Select Option的操作集合大全"></a>jQuery- 对Select Option的操作集合大全</h2><p>直接上代码和注释，需要什么一看就明了。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//jQuery获取Select选择的Text和Value:</span></div><div class="line"></div><div class="line">$(<span class="string">"#select_id"</span>).change(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="comment">//code...&#125;);   //为Select添加事件，当选择其中一项时触发</span></div><div class="line"><span class="keyword">var</span> checkText=$(<span class="string">"#select_id"</span>).find(<span class="string">"option:selected"</span>).text();  <span class="comment">//获取Select选择的Text</span></div><div class="line"><span class="keyword">var</span> checkValue=$(<span class="string">"#select_id"</span>).val();  <span class="comment">//获取Select选择的Value</span></div><div class="line"><span class="keyword">var</span> checkIndex=$(<span class="string">"#select_id "</span>).get(<span class="number">0</span>).selectedIndex;  <span class="comment">//获取Select选择的索引值</span></div><div class="line"><span class="keyword">var</span> maxIndex=$(<span class="string">"#select_id option:last"</span>).attr(<span class="string">"index"</span>);  <span class="comment">//获取Select最大的索引值 </span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">//jQuery设置Select选择的Text和Value:</span></div><div class="line"></div><div class="line">$(<span class="string">"#select_id "</span>).get(<span class="number">0</span>).selectedIndex=<span class="number">1</span>;  <span class="comment">//设置Select索引值为1的项选中</span></div><div class="line">$(<span class="string">"#select_id "</span>).val(<span class="number">4</span>);   <span class="comment">//设置Select的Value值为4的项选中</span></div><div class="line">$(<span class="string">"#select_id option"</span>).attr(<span class="string">"selected"</span>, <span class="literal">true</span>);   <span class="comment">//设置Select的Text值为jQuery的项选中</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">//jQuery添加/删除Select的Option项：</span></div><div class="line"></div><div class="line">$(<span class="string">"#select_id"</span>).append(<span class="string">"&lt;option value='Value'&gt;Text&lt;/option&gt;"</span>);  <span class="comment">//为Select追加一个Option(下拉项)</span></div><div class="line">$(<span class="string">"#select_id"</span>).prepend(<span class="string">"&lt;option value='0'&gt;请选择&lt;/option&gt;"</span>);  <span class="comment">//为Select插入一个Option(第一个位置)</span></div><div class="line">$(<span class="string">"#select_id option:last"</span>).remove();  <span class="comment">//删除Select中索引值最大Option(最后一个)</span></div><div class="line">$(<span class="string">"#select_id option[index='0']"</span>).remove();  <span class="comment">//删除Select中索引值为0的Option(第一个)</span></div><div class="line">$(<span class="string">"#select_id option[value='3']"</span>).remove();  <span class="comment">//删除Select中Value='3'的Option</span></div><div class="line">$(<span class="string">"#select_id option"</span>).remove();  <span class="comment">//删除Select中Text='4'的Option</span></div></pre></td></tr></table></figure>
-      
-    </div>
-    
-  </div>
-  
-    
-    <div class="copyright">
-        <p><span>本文标题:</span><a href="/2017/05/25/jQuery 操作 select_option 总结/"></a></p>
-        <p><span>文章作者:</span><a href="/" title="回到主页">轶子西 ( Yizixi )</a></p>
-        <p><span>发布时间:</span>2017-05-25, 10:29:49</p>
-        <p><span>最后更新:</span>2017-05-25, 10:31:46</p>
-        <p>
-            <span>原始链接:</span><a class="post-url" href="/2017/05/25/jQuery 操作 select_option 总结/" title="">https://yizixi.github.io/2017/05/25/jQuery 操作 select_option 总结/</a>
-            <span class="copy-path" data-clipboard-text="原文: https://yizixi.github.io/2017/05/25/jQuery 操作 select_option 总结/　　作者: 轶子西 ( Yizixi )" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
-            <script> var clipboard = new Clipboard('.copy-path'); </script>
-        </p>
-        <p>
-            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
-        </p>
-    </div>
-
-
-
-    <nav id="article-nav">
-        
-        
-            <div id="article-nav-older" class="article-nav-title">
-                <a href="/2017/03/02/MyFirstArticle/">
-                    My First Article
-                </a>
-            </div>
-        
-    </nav>
-
-  
-</article>
-
-    <div id="toc" class="toc-article">
-        <strong class="toc-title">文章目录</strong>
-        
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery-对Select-Option的操作集合大全"><span class="toc-number">1.</span> <span class="toc-text">jQuery- 对Select Option的操作集合大全</span></a></li></ol>
-        
-    </div>
-    <style>
-        .left-col .switch-btn,
-        .left-col .switch-area {
-            display: none;
-        }
-        .toc-level-3 i,
-        .toc-level-3 ol {
-            display: none !important;
-        }
-    </style>
-
-    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
-
-    <script>
-        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
-    </script>
-
-
-
-    
-<div class="share">
-    
-        <div class="bdsharebuttonbox">
-            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
-            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
-            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
-            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
-            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
-            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
         </div>
-        <script>
-            window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"　| 轶子西的博客　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
-        </script>
-    
+         
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2017/05/25/jQuery_Use_select_option_Summary/">jQuery 操作 select / option 总结</a>
+    </h1>
+  
 
-    
-</div>
+        <div class="article-info info-on-archive">
+          
 
-
-
-
-
-
-
-    
-
-
-
-
-    <div class="scroll" id="post-nav-button">
-        
-            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
-        
-
-        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
-
-        
-            <a href="/2017/03/02/MyFirstArticle/" title="下一篇: My First Article">
-                <i class="fa fa-angle-right"></i>
-            </a>
-        
+          
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jQuery-Js/">jQuery / Js</a></li></ul>
     </div>
 
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/05/25/jQuery 操作 select_option 总结/">jQuery 操作 select_option 总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/02/MyFirstArticle/">My First Article</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/02/hello-world/">Hello World</a></li></ul>
+        </div>
+        <div class="clearfix"></div>
+    </header>
+  </div>
+</article>
+  
+  
+    </div></section>
+  
 
+    
 
-
-
-    <script>
-        
-    </script>
 </div>
       <footer id="footer">
     <div class="outer">
